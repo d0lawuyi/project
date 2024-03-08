@@ -1,0 +1,532 @@
+body { background-color:  #1B7339;
+     background-image: linear-gradient(to bottom, #FFFFFF, #1B7339);
+     background-repeat: no-repeat; 
+     color: rgb(255, 255, 255);
+      font-family: Verdana, Arial, 'Times New Roman', Times, serif;
+}
+#wrapper { background-color: #1B7339;
+           background-image: url(backg.jpeg);
+         margin-left: auto;
+         margin-right: auto;
+           width: 80%;
+           min-width: 960px;
+           max-width: 2048px;
+           box-shadow: 3px 3px 3px #777;
+}
+header { background-color: #1B7339;
+       color: #ffffff;
+         font-family: Georgia, serif;
+         height: 120px;
+         padding-top: 30px;
+         padding-left: 3em;
+         text-align: center;
+}
+header a {
+text-decoration: none;
+color: white;
+}
+header a:link{
+   color: #ffffff;
+}
+header a:visited {
+   color: #ffffff;
+}
+header a:hover{
+   color: #ec0d0d;
+}
+h1 { 
+   margin-bottom: 0;
+   margin-top:  0;
+   text-align: center;
+   padding-top: .5em;
+   font-size: 3em;
+   letter-spacing: 0.25em;
+}
+h2 { color: #ffffff;
+   font-family: Georgia, serif; 
+}
+h3 { font-family: Georgia, serif; }
+nav { 
+   float: left;
+   width: 160px;
+   font-weight: bold; 
+     padding-top: .5em;
+     padding-right: .5em;
+     padding-bottom: .5em;
+     font-size: 120%;
+     padding:  1.5em;
+}
+nav a { text-decoration: none; 
+   padding-left: .5em;
+     padding-right: 2em;
+     display: block; }
+
+nav ul{
+   list-style-type: none;
+   margin: 0;
+   padding-left: 0;
+   font-size: 1em;
+}
+
+nav a:link{
+   color: #ffffff;
+}
+
+nav a:hover{
+   color: #ffffff;     
+}
+
+main {
+   margin-left:190px;
+   padding: 1px 20px 20px 20px;
+   display: block;
+   overflow: auto;
+   background-color: #FFFFFF;   
+
+}
+
+
+section{
+float: left;
+width: 22%;
+padding-left: 2em;
+padding-right: 2em;
+}
+
+
+dt { color: #ffffff;
+   font-weight: bold;
+}
+.resort { color: #ffffff;
+        font-size: 1.2em;
+}
+#homehero { 
+        margin-left:190px;
+        height: 300px;    
+          background-image: url(coast.jpg);
+               background-repeat: no-repeat;
+          background-size: 100% 100%; }
+
+#yurthero { 
+        margin-left:190px;
+        height: 300px;
+          background-image: url(lagos.jpg);
+               background-repeat: no-repeat;
+          background-size: 100% 100%;
+          
+
+}
+#trailhero { 
+        margin-left:190px;
+        height: 300px;
+          background-image: url(beninn.jpg);
+               background-repeat: no-repeat;
+          background-size: 100% 100%; }			
+footer { 
+        margin-left:190px; 
+        padding: 2em;
+        background-color: white;
+        font-size: .70em;
+       font-style: italic;
+         text-align: center;
+         padding: 1em;
+}
+
+     #contact {
+     
+     font-size: 90%;
+     
+     }
+     
+     #wrapper {
+     
+     margin-left: auto;
+     
+     margin-right: auto;
+     
+     width: 80%;
+     
+     background: #1B7339;
+     
+     min-width: 960px;
+     
+     max-width: 2048px;
+     
+     box-shadow: 3px 3px 3px #333333
+     
+     }
+     
+     main {
+     
+     padding-top: 1px;
+     
+     padding-right: 20px;
+     
+     padding-left: 30px;
+     
+     padding-bottom: 20px;
+     
+     display: block;
+     
+     background: #1B7339;
+     
+     margin-left: 190px;
+     
+     }
+
+     
+     #homehero {
+     
+     height: 300px;
+     
+     background-image: url(naija.jpg);
+     
+     background-size: 100% 100%;
+     
+     background-repeat: no-repeat;
+     
+     margin-left: 190px;
+     
+     }
+     
+     #yurthero {
+     
+     height: 300px;
+     
+     background-image: url(lagos.jpg);
+     
+     background-size: 100% 100%;
+     
+     background-repeat: no-repeat;
+     
+     margin-left: 190px;
+     
+     }
+    
+     #trailhero {
+     
+     height: 300px;
+     
+     background-image: url(beninn.jpg);
+     
+     background-size: 100% 100%;
+     
+     background-repeat: no-repeat;
+     
+     margin-left: 190px;
+     
+     }
+
+     
+      #reshero {
+     
+          height: 300px;
+          
+          background-image: url(landmrk.jpg);
+          
+          background-size: 100% 100%;
+          
+          background-repeat: no-repeat;
+          
+          margin-left: 190px;
+
+     }
+
+
+     #naijhero {
+     
+      height: 300px;
+      
+      background-image: url(nikeart.jpg);
+      
+      background-size: 100% 100%;
+      
+      background-repeat: no-repeat;
+      
+      margin-left: 190px;
+
+     }
+
+     #enuguhero {
+     
+      height: 300px;
+      
+      background-image: url(enugu.jpg);
+      
+      background-size: 100% 100%;
+      
+      background-repeat: no-repeat;
+      
+      margin-left: 190px;
+  
+     }
+     img {
+     
+     max-width: 100%;
+     
+     height: auto;
+     
+     }
+     
+     video,
+     
+     embed {
+     
+     float: right;
+     
+     padding-left: 20px;
+     
+     }
+     
+     #mobile {
+     
+     display: none;
+     
+     }
+     
+     #desktop {
+     
+     display: inline;
+     
+     }
+  
+     
+     table {
+     
+     border: 1px solid #007423;
+     
+     width: 80%;
+     
+     border-spacing: 0;
+     
+     }
+     
+     td,
+     
+     th {
+     
+     padding: 5px;
+     
+     border: 1px solid #1B7339;
+     
+     }
+     
+     td {
+     
+     text-align: center;
+     
+     }
+     
+     .text {
+     
+     text-align: left;
+     
+     }
+     
+     tr:nth-of-type(even) {
+     
+     background-color: #1B7339;
+     background-image:  url(nigeriaaa.jpg);
+     
+     }
+     
+     label {
+     
+     float: left;
+     
+     display: block;
+     
+     text-align: right;
+     
+     width: 120px;
+     
+     padding-right: 9px;
+     
+     }
+ 
+     input,
+     
+     textarea {
+     
+     display: block;
+     
+     margin-bottom: 20px;
+     
+     }
+     
+     input[type="submit"] {
+     
+     margin-left: 130px;
+     
+     }
+  
+     #gallery {
+     
+     position: relative;
+     
+     height: 200px;
+     
+     text-align: left;
+     
+     }
+     
+     #gallery ul {
+     
+     list-style-type: none;
+     
+     width: 300px;
+     
+     }
+     
+     #gallery li {
+     
+     display: inline;
+     
+     float: left;
+     
+     padding: 10px;
+     
+     }
+     
+     #gallery img {
+     
+     border-style: none;
+     
+     }
+     
+     #gallery a {
+     
+     text-decoration: none;
+     
+     font-style: italic;
+     
+     color: #22ca00;
+     
+     
+     color: rgb(0, 0, 0);
+     
+     }
+     
+     #gallery span {
+     
+     position: absolute;
+     
+     left: -1000px;
+     
+     opacity: 0;
+     
+     transition: opacity 3s ease-in-out;
+     
+     }
+     
+     #gallery a:hover span {
+     
+     position: absolute;
+     
+     top: 16px;
+     
+     left: 320px;
+     
+     text-align: center;
+     
+     opacity: 1;
+     
+     }
+     
+     figure {
+     
+     position: absolute;
+     
+     left: 280px;
+     
+     text-align: center;
+     
+     opacity: .2;
+     
+     }
+     
+     @media only screen and (max-width: 64em) {
+     
+     body {
+     
+     margin: 0;
+     
+     background-color: #1B7339;
+     }
+     
+     #wrapper {
+     
+     min-width: 0;
+     
+     width: auto;
+     
+     box-shadow: none;
+     
+     }
+     
+     main {
+     
+     margin-left: 0;
+     
+     }
+     
+     nav {
+     
+     float: none;
+     
+     width: auto;
+     
+     text-align: center;
+     
+     padding: 0.5em;
+     
+     }
+     
+     nav li {
+     
+     display: inline;
+     
+     padding-top: 0.25em;
+     
+     padding-bottom: 0.25em;
+     
+     padding-left: 0.75em;
+     
+     padding-right: 0.75em;
+     
+     }
+     
+     #homehero,
+     
+     #yurthero,
+     
+     #trailhero
+
+     #reshero,
+
+     #naijhero,
+
+     #enuguhero
+ {
+     
+     margin-left: 0;
+     
+     height: 200px;
+     
+     }
+     
+     footer {
+     
+     margin-left: 0
+     
+     }
+     
+     #gallery {
+     
+     display: none;
+     
+     }
+     
+     }
+     
+     
