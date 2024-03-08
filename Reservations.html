@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>VISIT NAIJA</title>
+<meta charset="utf-8">
+
+<link href="pacific.css" rel="stylesheet">
+</head>
+<body>
+  <body onload="alert ('Today only - 15% off on a 3 day trip - coupon code VISITNAIJ');"></body>
+<div id="wrapper">
+  <header>
+    <h1>VISIT NAIJA</h1>
+  </header>
+  <nav>
+    <a href="ABUJA.html">ABUJA</a> &nbsp; 
+    <a href="LAGOS.html">LAGOS</a> &nbsp; 
+    <a href="BENIN.html">BENIN</a> &nbsp; 
+    <a href="ENUGU.html">ENUGU</a>  &nbsp;
+    <a href="NIKEARTGALLERY.html">NIKE ART GALLERY</a> &nbsp; 
+    <a href="Reservations.html"> RESERVATIONS</a> &nbsp; 
+</nav>
+<div id="wrapper">
+<div id="reshero">
+</div>
+<main>
+<h2>Reservations at Pacific Trails</h2>
+<h3>Contact Us</h3>
+   <p>Required fields are marked with an asterisk *</p>
+   <form method="post"  name="form1" onSubmit="return phonenumber()"  action="https://webdevbasics.net/scripts/pacific.php">
+<label for="myFName">*First Name: </label><input type="text" id="myFName" name="myFName" required>
+<label for="myLName">*Last Name: </label><input type="text" id="myLName" name="myLName" required>
+<label for="myEmail">*E-mail: </label><input type="email" id="myEmail" name="myEmail" required>
+<label for="myPhone">Phone: </label><input type="tel" id="myPhone" name="myPhone">
+<label for="myDate">Arrival Date: </label><input type="date" id="myDate" name="myDate">
+<label for="myNights">Nights: </label><input type="number" id="myNights" name="myNights" min="1" max="14">
+<label for="myComments">*Comments: </label><textarea id="myComments" name="myComments" rows="2" cols="20" required></textarea>
+<input type="submit" id="mySubmit" value="Submit" >
+     
+   </form>
+</main>
+<script>
+function validatePhoneNumber() {
+    var phoneNumberInput = document.getElementById("phoneNumber").value;
+    var phoneNumberPattern = /^\d{3}-\d{2}-\d{4}$/;
+
+    if (phoneNumberPattern.test(phoneNumberInput)) {
+        document.getElementById("validationResult").textContent = "Valid phone number: " + phoneNumberInput;
+    } else {
+        document.getElementById("validationResult").textContent = "Not a valid phone number. Please use the format xxx-xx-xxxx.";
+    }
+}
+
+</script>
+</div>
+
+
+</body>
+
+</html>
